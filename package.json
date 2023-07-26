@@ -1,0 +1,32 @@
+{
+  "name": "vit-dfs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:thangved/vit-dfs.git",
+  "author": "Kim Minh Thang <thangved02@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf docs",
+    "build": "webpack --mode=production",
+    "dev": "webpack serve --mode=development"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "file-loader": "^6.2.0",
+    "html-inline-css-webpack-plugin": "^1.11.1",
+    "html-inline-script-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "inline-chunk-html-plugin": "^1.1.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "webpack": "^5.86.0",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "chart.js": "^4.3.0"
+  }
+}
